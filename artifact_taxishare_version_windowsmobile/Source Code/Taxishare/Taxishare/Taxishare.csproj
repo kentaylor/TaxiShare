@@ -1,0 +1,162 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A3B404F-342D-4047-BCF6-30E5A030D289}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Taxishare</RootNamespace>
+    <AssemblyName>Taxishare</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>Taxishare</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ManilaDotNetSDK, Version=3.0.3723.35311, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.WindowsMobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.WindowsMobile.PocketOutlook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Windows Mobile 5.0 SDK R2\Managed Libraries\Microsoft.WindowsMobile.PocketOutlook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsMobile.Samples.Location, Version=1.0.3242.38278, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.WindowsMobile.Status, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.WindowsMobile.Telephony, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="mirabyte.Mobile.TouchControls, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="mscorlib" />
+    <Reference Include="OpenNETCF, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL" />
+    <Reference Include="OpenNETCF.Configuration, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL" />
+    <Reference Include="OpenNETCF.Drawing, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL" />
+    <Reference Include="OpenNETCF.Net, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL" />
+    <Reference Include="OpenNETCF.WindowsCE.Messaging, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL" />
+    <Reference Include="SenseSDK.Resources.QVGA, Version=1.1.3733.23535, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="SenseSDK.Resources.VGA, Version=1.1.3733.23499, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="StedySoft.SenseSDK, Version=1.1.3733.36355, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\StedySoft.SenseSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cell\CellTower.cs" />
+    <Compile Include="Cell\CellUtils.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\CoordTranslate.cs" />
+    <Compile Include="Mapping\Geo.cs" />
+    <Compile Include="Mapping\GeoUtils.cs" />
+    <Compile Include="Mapping\Location.cs" />
+    <Compile Include="Mapping\Map.cs" />
+    <Compile Include="Mapping\MapUtils.cs" />
+    <Compile Include="Mapping\Marker.cs" />
+    <Compile Include="SendRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendRequest.Designer.cs">
+      <DependentUpon>SendRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libraries\HelveticaNeue LT 35 Thin.ttf" />
+    <None Include="Libraries\HelveticaNeueOTS.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\about.png" />
+    <EmbeddedResource Include="Icons\quit.png" />
+    <EmbeddedResource Include="Icons\settings.png" />
+    <EmbeddedResource Include="Icons\submit_request.png" />
+    <EmbeddedResource Include="Icons\view_match.png" />
+    <EmbeddedResource Include="Icons\cancel_request.png" />
+    <EmbeddedResource Include="SendRequest.resx">
+      <DependentUpon>SendRequest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libraries\ManilaDotNetSDK.dll" />
+    <EmbeddedResource Include="Libraries\Microsoft.WindowsMobile.Samples.Location.dll" />
+    <EmbeddedResource Include="Libraries\mirabyte.Mobile.TouchControls.dll" />
+    <EmbeddedResource Include="Libraries\OpenNETCF.Configuration.dll" />
+    <EmbeddedResource Include="Libraries\OpenNETCF.dll" />
+    <EmbeddedResource Include="Libraries\OpenNETCF.Drawing.dll" />
+    <EmbeddedResource Include="Libraries\OpenNETCF.Net.dll" />
+    <EmbeddedResource Include="Libraries\OpenNETCF.WindowsCE.Messaging.dll" />
+    <EmbeddedResource Include="Libraries\SenseSDK.Resources.QVGA.dll" />
+    <EmbeddedResource Include="Libraries\SenseSDK.Resources.VGA.dll" />
+    <EmbeddedResource Include="Libraries\StedySoft.SenseSDK.dll" />
+    <EmbeddedResource Include="Libraries\StedySoft.SenseSDK.PocketPC.asmmeta.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

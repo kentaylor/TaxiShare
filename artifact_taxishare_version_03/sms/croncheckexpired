@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+*/1 * * * * exec php /home/jay024/public_html/sms/expiredsms.php & >> /home/jay024/public_html/sms/expired.log

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TaxiShareActivity!</string>
+    <string name="app_name">TaxiShare</string>
+    <string name="search_label">Location Search</string>
+	<string name="search_hint">Location Name</string>
+	<string name="from_text">Start</string>
+	<string name="to_text">End</string>
+	<string name="map_text">Map</string>
+	<string name="reset_text">Clear Marker</string>
+	<string name ="title_senddialog">Location Confirmation</string>
+	<string name="ok_dialog">OK</string>
+	<string name="cancel_senddialog">Cancel</string>
+	<string name ="mobile_num">Enter Mobile Number:</string>
+	<string name="title_numdialog">Mobile Number</string>
+	<string name="enter_num">Enter</string>
+	<string name="exit_app">Exit</string>
+	<string name="title_numcheck">Is it your number</string>
+	<string name="dialog_yes">Yes</string>
+	<string name="dialog_no">No</string>
+	<string name="title_noticedialog">NOTICE AND DISCLAIMER</string>
+	<string name="title_help">HELP</string>
+	<string name="instruction">Search:\n
+							   1. Click Menu Key\n
+							   2. Enter the location in search\n 
+							      bar\n
+							   3. Select the location from\n 
+							      suggestion Or Jump to\n 
+							      location\n\n
+							    
+							   Mode selection:\n
+							   1. Select Satellite Mode or\n 
+							      Normal Mode\n\n
+							   
+							   Marker:\n
+							   1. Click Marker from menu\n
+							   2. Click map radio button to\n 
+							      control map\n
+							   3. Click start radio button and\n
+							      drag the marker to location\n
+							   4. Click end radio button and\n 
+							      drag the marker to location\n
+							   5. Click clear button to reset\n
+							      the marker\n\n
+							      
+							   Send:\n
+							   1. Click send from menu\n
+							   2. Confirm the information\n
+							   3. Send the request to system\n\n
+							   
+							   Cancel:\n
+							   1. Click cancel from menu\n
+							   2. Send the cancel to system\n </string>
+</resources>

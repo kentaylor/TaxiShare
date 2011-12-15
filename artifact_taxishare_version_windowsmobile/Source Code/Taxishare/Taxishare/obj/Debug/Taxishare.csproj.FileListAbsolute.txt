@@ -1,0 +1,63 @@
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.Properties.Resources.resources
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.csproj.GenerateResource.Cache
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\bin\Debug\Taxishare.exe
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\bin\Debug\Taxishare.pdb
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.exe
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.pdb
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.Form1.resources
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.Add_Request_Demo_1.resources
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.Main.resources
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\bin\Debug\SenseSDK.Resources.QVGA.dll
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\bin\Debug\SenseSDK.Resources.VGA.dll
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\bin\Debug\StedySoft.SenseSDK.dll
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\bin\Debug\mirabyte.Mobile.TouchControls.dll
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.Send_Request1.resources
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.Send_Request2.resources
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.Send_Request3.resources
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\bin\Debug\ManilaDotNetSDK.dll
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\bin\Debug\OpenNETCF.Drawing.dll
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.Send_Request4.resources
+C:\Users\Melvin\Documents\Visual Studio 2008\Projects\Taxishare\Taxishare\obj\Debug\Taxishare.MapTest.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Taxishare.exe
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Taxishare.pdb
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.Add_Request_Demo_1.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.Form1.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.Main.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.Properties.Resources.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.MapTest.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.csproj.GenerateResource.Cache
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.exe
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.pdb
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Taxishare.exe
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Taxishare.pdb
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\StedySoft.SenseSDK.dll
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.Main.resources
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.Properties.Resources.resources
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.csproj.GenerateResource.Cache
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.exe
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.pdb
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.ViewMatch.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.Status.dll
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.dll
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.PocketOutlook.dll
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.xml
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.Status.xml
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.PocketOutlook.xml
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.GPSTest.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.Telephony.dll
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.Telephony.xml
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.Settings.resources
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\bin\Debug\StedySoft.SenseSDK.dll
+C:\Users\Maksim Rukov\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.xmlTest.resources
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.dll
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.PocketOutlook.dll
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.Status.dll
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.Telephony.dll
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.Telephony.xml
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.PocketOutlook.xml
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.Status.xml
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\bin\Debug\Microsoft.WindowsMobile.xml
+C:\Users\Melvin\Desktop\Taxishare\Taxishare\obj\Debug\Taxishare.SendRequest.resources

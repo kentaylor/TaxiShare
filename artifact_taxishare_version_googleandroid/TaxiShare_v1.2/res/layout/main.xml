@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/map_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+  
+<com.google.android.maps.MapView
+    	android:id="@+id/mapview"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:clickable="true"
+    	android:apiKey= "08lakxAfS-gXDPL5U-1GLpb-wRQa1XRvFrmms0A"/>
+    	
+    	<!--
+    	test key: 08lakxAfS-gXDPL5U-1GLpb-wRQa1XRvFrmms0A
+
+		formal key: "08lakxAfS-gWiQ2gxiy5iyZFVmCQhZdhBCn5mtQ" 
+    	 -->
+    	 
+</RelativeLayout>

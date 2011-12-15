@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <com.example.TransparentPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/marker_layout"
+    	android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingLeft="5px"
+		android:paddingTop="5px"
+		android:paddingRight="5px"
+		android:paddingBottom="5px">
+		
+   
+   <RadioGroup android:id="@+id/marker_radiogroup"
+    	  android:layout_width="wrap_content"
+      	  android:layout_height="wrap_content"
+      	  android:orientation="horizontal">
+      	<RadioButton android:id="@+id/from_radio"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/from_text" />
+      	<RadioButton android:id="@+id/to_radio"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/to_text" />
+		<RadioButton android:id="@+id/map_radio"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:text="@string/map_text"/>
+   </RadioGroup>
+
+   <Button android:id="@+id/reset_button"
+   		   android:layout_width="wrap_content"
+   		   android:layout_height="wrap_content"
+   		   android:text="@string/reset_text"/>
+  		  
+  
+  
+</com.example.TransparentPanel>
